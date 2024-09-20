@@ -1,0 +1,7 @@
+echo "# mi-primera-pagina" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mixh1/mi-primera-pagina.git
+git push -u origin main
